@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask + Tailwind Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm fixed w-full top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-blue-600">MyLanding</h1>
+        <nav class="space-x-6">
+          <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Features</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Pricing</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="pt-28 pb-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white"
+    >
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-5xl font-extrabold mb-6 leading-tight">
+          Build Beautiful Web Apps <br />
+          with Flask & Tailwind
+        </h2>
+        <p class="text-lg mb-8 max-w-2xl mx-auto">
+          A lightweight starter template that combines the power of
+          <span class="font-semibold">Flask</span> with the utility-first
+          styling of <span class="font-semibold">Tailwind CSS</span>.
+        </p>
+        <a
+          href="#get-started"
+          class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition"
+        >
+          Get Started
+        </a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="get-started" class="py-20">
+      <div
+        class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 text-center"
+      >
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold text-blue-600 mb-4">⚡ Fast Setup</h3>
+          <p class="text-gray-600">
+            Spin up your Flask app in seconds with a clean, ready-to-go Tailwind
+            design.
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold text-blue-600 mb-4">🎨 Modern UI</h3>
+          <p class="text-gray-600">
+            Tailwind’s utility-first classes help you craft fresh, responsive
+            layouts.
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold text-blue-600 mb-4">🚀 Scalable</h3>
+          <p class="text-gray-600">
+            Easily extend the template into a full-featured web app or landing
+            page.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-6 mt-10 text-center text-gray-600">
+      <p>&copy; 2025 MyLanding. Built with ❤️ using Flask & Tailwind.</p>
+    </footer>
+  </body>
+</html>
